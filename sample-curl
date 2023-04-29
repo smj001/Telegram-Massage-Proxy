@@ -1,0 +1,5 @@
+curl -X POST \
+  -H "Authorization: YOUR_SECRET_API_KEY_HERE" \
+  -F "chat_id=YOUR_CHAT_ID_HERE" \
+  -F "message=Hello, world!" \
+  http://localhost:5000/send_message

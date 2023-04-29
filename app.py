@@ -39,4 +39,4 @@ def send_message():
         return 'Error sending message:', response.text
 
 if __name__ == '__main__':
-    app.run(debug=os.environ.get('DEBUG'))
+    app.run(host='0.0.0.0', debug=os.environ.get('DEBUG'))
